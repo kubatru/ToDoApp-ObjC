@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" syncable="YES">
+        <attribute name="catColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Settings" syncable="YES">
+        <attribute name="notifications" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sortedAtoZ" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Task" syncable="YES">
+        <attribute name="taskCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskCompleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="taskCompletedTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskNotify" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="Settings" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="Task" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

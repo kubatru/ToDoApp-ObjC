@@ -1,0 +1,10 @@
+PODS:
+  - SWTableViewCell (0.3.6)
+
+DEPENDENCIES:
+  - SWTableViewCell (~> 0.3.6)
+
+SPEC CHECKSUMS:
+  SWTableViewCell: f5cbe30c49c4e5b97231c076f17331caaf3f6244
+
+COCOAPODS: 0.34.4
